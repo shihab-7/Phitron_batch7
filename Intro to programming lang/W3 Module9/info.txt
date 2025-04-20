@@ -1,0 +1,11 @@
+basic array operation in C , like insert delete swap
+reverse 
+Quiz Explanation:
+
+https://docs.google.com/document/d/11q5p5_t-oUiZBIciI4XvQkTOBFggO9D0/edit?usp=sharing&ouid=112433310488936743525&rtpof=true&sd=true
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/19OO0JfyCVLeJRT3IIszGUNlzBguXaWW9qE6SQsFTbF4/edit?usp=sharing
