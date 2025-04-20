@@ -1,0 +1,11 @@
+String in C
+use of gets() fgets() strlen()
+Quiz Explanation:
+
+https://docs.google.com/document/d/11y0nEoD0c0b5h2YAmo4Qsog1NY_8qWUJn5ouDp87ZT0/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1VmGUxd3sRCILjR0AHYY8SiRxDztTiTSjMtYZ7nZtxmk/edit?usp=sharing
