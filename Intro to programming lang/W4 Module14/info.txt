@@ -1,0 +1,9 @@
+all about function in C 
+variable scope
+build in math functions
+floor()
+ceil()
+abs()
+sqrt()
+pow()
+round()

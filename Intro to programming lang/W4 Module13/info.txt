@@ -1,0 +1,11 @@
+nested loop, pattern, selection sort and target sum using C
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/12ND3Q_fbT0gcreYKgSY9WgYIUoLMdlpADBiWCQj-imQ/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1KyUB7JrpN3tinY1C1epwbG4nfK5uAuGZG_da36ksnl0/edit?usp=sharing
