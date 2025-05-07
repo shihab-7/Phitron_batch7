@@ -7,3 +7,12 @@ abs()
 sqrt()
 pow()
 round()
+Quiz Explanation:
+
+https://docs.google.com/document/d/1pzXu4-wp0fbTfq5NN53WMTxg_im8lyWvc2jNdQffwVk/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1ezSmXcT4woRw3NeAGW04NCljZ7zwIokHVw_sgfYmJ3U/edit?usp=sharing
