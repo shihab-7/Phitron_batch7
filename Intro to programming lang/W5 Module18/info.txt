@@ -1,0 +1,10 @@
+2D array in C
+Quiz Explanation:
+
+https://docs.google.com/document/d/1b9Y_1ouIE0ck0-ckhTG1nMgCoIlGT_YSsqbWwhW1BGQ/edit?usp=drivesdk
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1xvLXm5kvrnoACi9rOBUZz2eXsICC7ooEO3DOY32FPew/edit?usp=drivesdk
