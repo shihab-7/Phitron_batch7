@@ -1,0 +1,12 @@
+basic of C++
+namespace, typecasting ,EOF ,setprecision,builtin functions,ternary operators 
+string 
+Quiz Explanation:
+
+https://docs.google.com/document/d/1NE34UsjcipdLPyIFfm6xyrjtNfdNzMVAidlx9vqOsws/edit?tab=t.0
+
+
+
+মডিউল রিলেটেড তোমার যে কোন ফিডব্যাক থাকলে এই ফর্মে লিখে দিতে পারো। আমরা তোমার ফিডব্যাক গুরুত্বসহকার দেখব।
+
+https://forms.gle/DH5mjuGD1x2EZ4z29
