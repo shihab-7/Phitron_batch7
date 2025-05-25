@@ -1,0 +1,11 @@
+Dynamic memory allocation in cpp
+static vs dynamic memory
+Quiz Explanation:
+
+https://docs.google.com/document/d/1XK1FLgH0S442Al4sZx_o-6Zo8SE1W3NhlgTcqK1Ympo/edit?usp=sharing
+
+
+
+মডিউল রিলেটেড তোমার যে কোন ফিডব্যাক থাকলে এই ফর্মে লিখে দিতে পারো। আমরা তোমার ফিডব্যাক গুরুত্বসহকার দেখব।
+
+https://forms.gle/DH5mjuGD1x2EZ4z29
