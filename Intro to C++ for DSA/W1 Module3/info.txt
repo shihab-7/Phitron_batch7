@@ -1,0 +1,22 @@
+class and object in C++
+builtin sort function use 
+constructor , this keyword and dynamic object
+
+(*this).variable = variable eita r
+this->variable = variable same , -> dereference kore point kore pointer k 
+
+Extra Problem:
+
+https://docs.google.com/document/d/1oLbtTi1yfjVRUQTt-wwqSPOFuF3MDBR_bkKcDSXp2_Y/edit?usp=sharing
+
+
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1yxy2CtbyJeb0Y2GekZl5ksC5Jk7BA-WtuGsToUaHFAk/edit?usp=sharing
+
+
+
+মডিউল রিলেটেড তোমার যে কোন ফিডব্যাক থাকলে এই ফর্মে লিখে দিতে পারো। আমরা তোমার ফিডব্যাক গুরুত্বসহকার দেখব।
+
+https://forms.gle/DH5mjuGD1x2EZ4z29
