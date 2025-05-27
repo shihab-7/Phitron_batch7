@@ -1,1 +1,6 @@
 *.cph
+*.exe
+*.o
+*.out
+.vscode/
+*.vscode
