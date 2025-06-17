@@ -1,0 +1,12 @@
+materials : https://docs.google.com/document/d/1nxpbS-5RKFSwcJ6mHv3P2Vru9HTqXOeB/edit?usp=sharing&ouid=112433310488936743525&rtpof=true&sd=true
+
+stl vector
+(standard template library)
+
+Extra Problem: https://docs.google.com/document/d/1zCtGILmwz3TTS35Y9PPE3kqZ_O8NIPcov6Sz_QIB94c/edit?usp=drivesdk
+
+
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/11R5lR-YMVVmkB4hs7xkMV9Vw9qrOwjiRgFtxRWdafNw/edit?usp=drivesdk
