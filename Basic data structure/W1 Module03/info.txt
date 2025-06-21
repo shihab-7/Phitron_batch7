@@ -1,0 +1,7 @@
+prefix sum and binary search 
+
+Quiz Explanation: https://docs.google.com/document/d/1iw2V33H1N6SJVkUQd3DDbG7h7ct2UV5lbuusSBwv4ho/edit?usp=drivesdk
+
+
+
+Practice Problem Set: https://docs.google.com/document/d/1LMFyd4rQ5Gpyc48Ht5b9RFBc3A2ycqEP/edit?usp=drivesdk&ouid=112433310488936743525&rtpof=true&sd=true
