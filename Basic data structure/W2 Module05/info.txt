@@ -1,0 +1,6 @@
+singly linked list
+Quiz Explanation - https://docs.google.com/document/d/1DbwQuXaihsNJh5VlggPDJOccDr_C0HsZL2sCLMxROaw/edit?usp=sharing
+
+Extra Practice Problems -
+
+https://docs.google.com/document/d/1mBmbTd2A0r2GYV50GkweULyN-TqKZSmx7UVM4-NX5cs/edit?tab=t.0
