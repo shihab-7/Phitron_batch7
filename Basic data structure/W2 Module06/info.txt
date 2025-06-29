@@ -1,0 +1,13 @@
+linked list operations
+
+insert at head newnode->next=head; head=newnode;
+insert at tail 
+insert at any position
+
+Extra Problems - https://docs.google.com/document/d/1P9adF6lPRgQcQFZH0Bq4e8tPxa5pdiBlxuJlS7p8jXg/edit?usp=sharing
+
+
+
+Quiz Explanation -
+
+https://docs.google.com/document/d/12T11zTkSCgryQKJx8J89L4h1hkjn276GsnPuYXHW8AI/edit?tab=t.0
