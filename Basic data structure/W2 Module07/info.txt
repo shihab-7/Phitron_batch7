@@ -1,0 +1,8 @@
+linked list operations
+insert delete sorting
+
+complexity of linked list operations
+https://docs.google.com/document/d/1d4y8Wvrpquz4vnHq348WiXNTQ7W4wk8GVA94NSnOE88/edit?usp=sharing
+
+Quiz Explanation: https://docs.google.com/document/d/1Xs6biChncaiKDSHeAcPXf_9I2JuXM85b597iJmtnuPw/edit?usp=drivesdk
+
