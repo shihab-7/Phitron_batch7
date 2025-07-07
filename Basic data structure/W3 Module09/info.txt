@@ -1,0 +1,4 @@
+doubly linked list 
+Comparison of all operation's complexity - https://docs.google.com/document/d/1McYLCx7BcrMBsqTCuioWK2FnopEBgXzG1B35Hfwlfzk/edit?usp=sharing
+
+কুইজ এক্সপ্লেনেশন - https://docs.google.com/document/d/1gbo1Mm3fn2PRe4ciyq3JaFP6VCOSKoDGaFlb-WwuqY8/edit?usp=sharing
