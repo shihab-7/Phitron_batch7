@@ -1,0 +1,13 @@
+stack in cpp
+
+builtin functions : https://docs.google.com/document/d/1676YNr_Oi_Gylv94ClrpHYu-ac8P0aYQbO0wZw-N2Mw/edit?usp=sharing
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1KsjaPsAdvVYKMtqvoC31RjF00HfXRa21G-mmI8JmEtM/edit?tab=t.0
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1Hz4Pmc0tO-vXmgy8-PQcjcx3k4A6492Drgv_vsneD9U/edit?usp=sharing
