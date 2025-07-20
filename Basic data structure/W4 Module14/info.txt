@@ -1,0 +1,9 @@
+Queue
+https://docs.google.com/document/d/184KGhHMwwfxclCOGczYXjydFRvadXbUI/edit?usp=drivesdk&ouid=112433310488936743525&rtpof=true&sd=true
+
+
+Built-in Function - https://docs.google.com/document/d/1tiYAlnJZWbuamFGwLgR4tGm2TEm_FQe0hxF-rXy-9bU/edit?usp=drivesdk
+
+Quiz Explanation - https://docs.google.com/document/d/17cWGow5iNWXsN6oIs8zLuSb1JSASbBcc/edit?usp=drivesdk&ouid=112433310488936743525&rtpof=true&sd=true
+
+queue can not be implemented using array due to it's bad removing complexity
