@@ -1,0 +1,12 @@
+priority queue 
+set removes duplicate at the same time sorts all
+map 
+Quiz Explanation:
+
+https://docs.google.com/document/d/1zPSrQHEmFtNbQzB1B0R2zlail60t4rHr/edit?usp=sharing&ouid=110071013354717279052&rtpof=true&sd=true
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1eW8FdO3xi6OjBGvgdb-fjQZmA2K3p_dsipvvyyc7huc/edit?usp=sharing
