@@ -1,0 +1,7 @@
+dfs traversal 
+depth first search
+normal traversal dfs 
+shortest dist bfs 
+Quiz Explanation:
+
+https://docs.google.com/document/d/1fMr8VybA5kQWQScUDWWlHxLcBIy2V1Cn/edit?usp=drive_link&ouid=112433310488936743525&rtpof=true&sd=true
