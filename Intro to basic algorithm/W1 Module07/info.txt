@@ -1,0 +1,9 @@
+dijkstra algorithm single source shortest distance
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/17G7WGD_LvmiJcX_4QueE8lFh67F0taZV/edit?usp=sharing&ouid=110071013354717279052&rtpof=true&sd=true
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1TSwbv-jcI3pNKGDNyMybRA6ibIKS4RgBEHJCnxhsKfQ/edit?usp=sharing
