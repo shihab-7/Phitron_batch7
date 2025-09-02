@@ -1,0 +1,14 @@
+bellman ford algorithm 
+single source shortest distance , same as dijkstra but more improved
+bellman can detect negative weight cycle but dijkstra can not work if get any negative cycle
+
+edge list method is most useful for bellman ford 
+Quiz Explanation:
+
+https://docs.google.com/document/d/13TiEKEyJmDqmPzHg7jW27Dhtvf5R3tw_9aSRaoM-nzg/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/133PI7IeqTGlajsBJqnp3XLuGjTG1wSMj2R8I2aP3XuA/edit?usp=sharing
