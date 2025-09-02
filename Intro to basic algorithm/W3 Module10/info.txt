@@ -1,0 +1,21 @@
+floyd warshall algorithm
+to find all pair shortest path 
+does not fall into inf loop and can detect cycle
+
+https://docs.google.com/document/d/1uGHvBVITHY8DknLY7KIZ-ey5emDxlJyty4RG35EGcPI/edit?usp=sharing
+
+
+complexities ==>>
+
+dfs--- O(V+E)
+bfs--- O(V+E)
+bellman ford--- O(VE)
+dijkstra--- O(E log V)
+floyd warshall--- O(v^3) 
+
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1PiE_uTmduby_M67wPiDiHGXOdWTpQ_cPES1pppkqOOU/edit?usp=sharing
+
+
