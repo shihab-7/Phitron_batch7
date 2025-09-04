@@ -1,0 +1,9 @@
+DSU (disjoint set union)
+
+minimum spanning tree,cycle detect can be solve using DSU
+
+DSU can detect cycle only in undirected
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1ujbl0vw6_HmHYbYnV6_NJ4ACiHNuJ9RRptJkdNoNgco/edit?usp=sharing
