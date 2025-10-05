@@ -1,0 +1,6 @@
+divide and conquer 
+merge sort 
+complexity O(N log N)
+Quiz Explanation:
+
+https://docs.google.com/document/d/1Vv59rkgY2QbvNHxOkXR8rIKBEQFzCgDsHWg9g_VeW08/edit?usp=sharing
