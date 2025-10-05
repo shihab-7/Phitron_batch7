@@ -1,0 +1,9 @@
+knapsack variation 
+
+https://docs.google.com/document/d/1D4Agn4-1AQI8UpiUUCjLiytCbnLET4HlLEKr8oDElaE/edit?usp=sharing
+
+subset sum 
+equal partition sum
+unbounded knapsack means same item can be take again and again , no restriction like 0-1 knapsack
+
+
