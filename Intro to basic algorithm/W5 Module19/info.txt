@@ -1,0 +1,16 @@
+LCS = longest common subsequence
+MST = minimum spanning tree
+
+difference between subsequence and substring is
+we can avoid any char maintaining the sequence in subsequence
+we can not avoid any char maintaining the sequence in substring
+ example , Hello ==> Hel , llo substring but 
+ hll, eo subsequence
+
+
+ minimum spanning tree ===>>
+ 
+ krushkals algorithm==>>
+ sorts the edges ,then use dsu (disjoint set union)
+
+Quiz Explanation - https://docs.google.com/document/d/1yXo1uwLz7OqdW8PIckzlsOJIOnW6KsZg/edit?usp=sharing&ouid=112433310488936743525&rtpof=true&sd=true
