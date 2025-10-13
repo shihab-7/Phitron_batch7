@@ -13,17 +13,14 @@ int main()
     shihab
     int n;
     cin>>n;
-    vector<int> v(n);
-    for(int i=0; i<n; i++) cin>>v[i];
-    printv(v);
-    cout<<endl;
-    // vector er motoi deque but front thekeo insert and delete kora jay o(1) time a
-    deque<int> d(n);
-    for(int i=0; i<n; i++) cin>>d[i];
-    for(auto a:d) cout<<a<<" ";
-    cout<<endl;
-    d.push_front(100);
-    for(auto a:d) cout<<a<<" ";
-    cout<<endl;
+    map<string,bool>mp;
+    for(int i=0;i<n;i++)
+    {
+        string s;
+        cin>>s;
+        if(mp.find(s)!=mp.end()) mp[s]=true;
+        else mp[s]=false;
+    }
+    for(auto a:mp) cout<<a.first<<endl;
     return 0;
 }
