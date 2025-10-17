@@ -13,10 +13,32 @@ int main()
     shihab
     test
     {
-        string s;
+        string s,res="";
         cin>>s;
-        
-        cout<<s<<endl;
+        int B=0,b=0;
+        for(int i=s.size()-1;i>=0;i--)
+        {
+            if(s[i]>='A'&&s[i]<='Z')
+            {
+                if(s[i]=='B') B++;
+                else
+                {
+                    if(B>0) B--;
+                    else res+=s[i];
+                }
+            }
+            else
+            {
+                if(s[i]=='b') b++;
+                else
+                {
+                    if(b>0) b--;
+                    else res+=s[i];
+                }
+            }
+        }
+        reverse(res.begin(),res.end());
+        cout<<res<<endl;
     }
     return 0;
 }

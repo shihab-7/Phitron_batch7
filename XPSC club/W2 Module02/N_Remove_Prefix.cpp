@@ -18,8 +18,14 @@ int main()
         vector<int>v(n);
         set<int>s;
         for(int i=0;i<n;i++) cin>>v[i];
-        for(auto a:v)s.insert(a);
-        cout<<(n-s.size())<<endl;
+        int cnt=0;
+        for(int i=n-1;i>=0;i--)
+        {
+            if(s.find(v[i])!=s.end()) break;
+            s.insert(v[i]);
+            cnt++;
+        }
+        cout<<n-cnt<<endl;
     }
     return 0;
 }

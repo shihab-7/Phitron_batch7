@@ -13,23 +13,25 @@ int main()
     shihab
     int q;
     cin>>q;
-    map<string,string>mp;
+    map<string,string>ans,has;
     while(q--)
     {
-        string s1,s2;
-        cin>>s1>>s2;
-        for(auto a:mp)
+        string a,b;
+        cin>>a>>b;
+        if(has.find(a)!=has.end())
         {
-            if(a.second==s1) s1=a.first;
+            string s=has[a];
+            ans[s]=b;
+            has.erase(a);
+            has[b]=s;
         }
-        mp[s1]=s2;
-        for(auto a:mp)
+        else
         {
-            if(a.second==s2 && a.first!=s1) mp.erase(a.first);
+            ans[a]=b;
+            has[b]=a;
         }
-
     }
-    cout<<mp.size()<<endl;
-    printmp(mp);
+    cout<<has.size()<<endl;
+    for(auto [a,b]:has) cout<<b<<" "<<a<<endl;
     return 0;
 }

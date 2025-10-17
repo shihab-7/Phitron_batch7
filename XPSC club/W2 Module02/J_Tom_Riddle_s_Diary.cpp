@@ -13,6 +13,17 @@ int main()
     shihab
     int n;
     cin>>n;
-    
+    set<string>s;
+    while(n--)
+    {
+        string nm;
+        cin>>nm;
+        if(s.find(nm)==s.end())
+        {
+            cout<<"NO"<<endl;
+            s.insert(nm);
+        }
+        else cout<<"YES"<<endl;
+    }
     return 0;
 }

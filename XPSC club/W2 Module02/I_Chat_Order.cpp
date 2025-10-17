@@ -13,14 +13,16 @@ int main()
     shihab
     int n;
     cin>>n;
-    map<string,bool>mp;
-    for(int i=0;i<n;i++)
+    map<string,bool>ump;
+    vector<string>v(n);
+    for(int i=0;i<n;i++)cin>>v[i];
+    for(int i=n-1;i>=0;i--)
     {
-        string s;
-        cin>>s;
-        if(mp.find(s)!=mp.end()) mp[s]=true;
-        else mp[s]=false;
+        if(!ump[v[i]])
+        {
+            ump[v[i]]=true;
+            cout<<v[i]<<endl;
+        }
     }
-    for(auto a:mp) cout<<a.first<<endl;
     return 0;
 }
