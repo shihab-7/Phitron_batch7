@@ -17,7 +17,20 @@ int main()
         cin>>n;
         string s;
         cin>>s;
-        
+        set<char>st;
+        for(int i=0;i<n;i++) st.insert(s[i]);
+        // printv(st);cout<<endl;
+        string res="",tmp;
+        for(auto i=st.begin();i!=st.end();i++)res+=*i;
+        tmp=res;
+        reverse(res.begin(),res.end());
+        // cout<<res<<endl;
+        map<char,char>mp;
+        for(int i=0;i<res.size();i++) mp[tmp[i]]=res[i];
+        // printmp(mp);cout<<endl;
+        string ans="";
+        for(int i=0;i<n;i++) ans+=mp[s[i]];
+        cout<<ans<<endl;
     }
     return 0;
 }
