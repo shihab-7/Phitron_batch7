@@ -15,11 +15,23 @@ int main()
     {
         int n;
         cin>>n;
-        vector<ll>v(n);
-        for(int i=0;i<n;i++)cin>>v[i];
-        sort(v.begin(),v.end());
-        cout<<v[n-1]<<" ";
-        for(int i=0;i<n-1;i++)cout<<v[i]<<" ";
+        string s;
+        cin>>s;
+        vector<int>v;
+        if(s[0]=='0'||s[n-1]=='0')
+        {
+            cout<<-1<<endl;
+            continue;
+        }
+        for(int i=0;i<n;i++)
+        {
+            v.push_back(i+1);
+        }
+        for(int i=1;i<n-1;i++)
+        {
+            if(s[i]=='0') swap(v[i],v[i+1]);
+        }
+        for(auto a:v)cout<<a<<" ";
         cout<<endl;
     }
     return 0;
