@@ -1,0 +1,41 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define shihab ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define test int t; cin>>t; while(t--)
+#define endl '\n'
+#define printv(v) for(auto a:v) cout<<a<<" ";
+#define printmp(m) for(auto a:m) cout<<a.first<<" "<<a.second<<endl;
+#define ll long long
+
+int main()
+{
+    shihab
+    test
+    {
+        int n;
+        cin>>n;
+        vector<ll>v(n+1);
+        for(int i=0;i<n;i++) cin>>v[i];
+        bool sgmnt=false;
+        ll ans=0,op=0;
+        for(int i=0;i<=n;i++)
+        {
+            if(i<n)ans+=abs(v[i]);
+            if(sgmnt)
+            {
+                if(i==n||v[i]>0)
+                {
+                    op++;
+                    sgmnt=false;
+                }
+            }
+            else
+            {
+                if(v[i]<0) sgmnt=true;
+            }
+        }
+        cout<<ans<<" "<<op<<endl;
+    }
+    return 0;
+}

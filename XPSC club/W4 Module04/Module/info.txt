@@ -1,0 +1,2 @@
+fixed sliding window ,two pointer, prefix sum ,difference array
+
