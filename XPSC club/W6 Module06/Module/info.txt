@@ -1,0 +1,10 @@
+The Goldbach conjecture is a famous unsolved 
+problem in number theory that states every even 
+integer greater than 2 is the sum of two prime numbers. 
+For example, \(4=2+2\), \(6=3+3\), \(8=3+5\), and \(10=3+7\). 
+It was first proposed by Christian Goldbach in 1742 and has been 
+verified for very large numbers, 
+but a formal mathematical proof is still missing. 
+
+source : https://en.wikipedia.org/wiki/Goldbach%27s_conjecture
+
