@@ -1,0 +1,27 @@
+Bit Manipulation
+
+AND == aktao 0 thakle total ans 0
+XOR == same same value er xor 0 
+odd number er binary representation er last bit 1 r even er 0
+left shift 1 korle 2x kore bare value
+right shift 1 korle 2x kore kome 
+
+
+shift operation korar shomoy boro value dile
+int range er vitor na pore garbage value dey 
+tail safe hoilo long long a typecast kore neowa
+( 1LL << 50 )
+
+kono digit er k th bit on naki off check korte hoile
+oi k position porjonto digit ta right shift kore
+1 diye and korle 0 paile off 1 paile on
+
+kono digit er kth bit set korte hoile age 1 k k bar left shift korle k position a 1 ashbe
+then just digit tar sathe shift er result ta or korlei kth bit set hoye jabe
+
+akhon unset korte same way just 1k k porjonto shift kore not operation kore 
+digit ta and korlei kth bit off hoye jabe
+
+toggling er jonno same 1k k porjonto left shift kore
+digit er sathe xor 
+
