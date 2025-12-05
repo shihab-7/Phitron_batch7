@@ -25,3 +25,13 @@ digit ta and korlei kth bit off hoye jabe
 toggling er jonno same 1k k porjonto left shift kore
 digit er sathe xor 
 
+2 ta digit or korle answer always oi dui digit theke boro or equal
+hoy;
+a|b>=a , a|b>=b if a!=b 
+kokhonoi soto hobe na or er result 
+
+xor er kaj jog er moto jokhon digits gular moddhe common bit na thake
+
+kono full array er total AND korte chaile 1st element k set kora lage or highest limit k dhore 
+AND kora lage ex, AND = a[0] othoba AND=(1LL<<32); then loop er vitor AND&=a[i];
+OR othoba XOR er khettere 0 dhorle somossa nai;
