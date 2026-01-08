@@ -15,15 +15,14 @@ int main()
     {
         int n;
         cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
+        string s;
+        cin>>s;
+        int cnt=0;
         for(int i=0;i<n;i++)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            if(s[i]!=s[n-1]) cnt++;
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        cout<<cnt<<endl;
     }
     return 0;
 }

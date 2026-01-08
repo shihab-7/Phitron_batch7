@@ -13,17 +13,15 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
+        int n,k;
+        cin>>n>>k;
+        int tmp=k,mx=0;
+        while(k>tmp/2)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            mx=max(mx,n%k);
+            k--;
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        cout<<mx<<endl;
     }
     return 0;
 }

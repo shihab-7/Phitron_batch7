@@ -16,14 +16,19 @@ int main()
         int n;
         cin>>n;
         vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++) cin>>v[i];
+        set<int>s;
+        for(int i=0;i<n;i++) s.insert(v[i]);
+        if(s.size()<2) cout<<0<<endl;
+        else
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            auto it=s.end();
+            it--;
+            int fst_mx=*it;
+            it--;
+            int snd_mx=*it;
+            cout<<snd_mx%fst_mx<<endl;
         }
-        cout<<max(cnt0,cnt_r)<<endl;
     }
     return 0;
 }

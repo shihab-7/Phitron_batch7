@@ -11,19 +11,24 @@ using namespace std;
 int main()
 {
     shihab
-    test
+    int n;
+    cin>>n;
+    vector<pair<int,int>>v(n);
+    for(int i=0;i<n;i++)
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
-        {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
-        }
-        cout<<max(cnt0,cnt_r)<<endl;
+        cin>>v[i].first>>v[i].second;
+        swap(v[i].first,v[i].second);
     }
+    sort(v.begin(),v.end());
+    int ans=0, last=-1;
+    for(auto [end,start]:v)
+    {
+        if(start>=last)
+        {
+            ans++;
+            last=end;
+        }
+    }
+    cout<<ans<<endl;
     return 0;
 }

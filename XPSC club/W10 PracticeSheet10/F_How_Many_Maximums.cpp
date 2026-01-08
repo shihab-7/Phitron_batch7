@@ -15,15 +15,16 @@ int main()
     {
         int n;
         cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
+        string s;
+        cin>>s;
+        int cnt=0;
+        for(int i=0;i<n-2;i++)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            if(s[i]=='0'&&s[i+1]=='1') cnt++;
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        if(s[0]=='1') cnt++;
+        if(s[n-2]=='0') cnt++;
+        cout<<cnt<<endl;
     }
     return 0;
 }

@@ -11,11 +11,21 @@ using namespace std;
 int main()
 {
     shihab
-    test
+    int n;
+    cin>>n;
+    vector<int>v(n);
+    for(int i=0;i<n;i++) cin>>v[i];
+    sort(v.begin(),v.end());
+    int q;
+    cin>>q;
+    while(q--)
     {
-        ll l,r;
+        int l,r;
         cin>>l>>r;
-        cout<<(r/3)-((l-1)/3)<<endl;
+        auto it_l=lower_bound(v.begin(),v.end(),l);
+        auto it_r=upper_bound(v.begin(),v.end(),r);
+        if(it_l==v.end() || it_r==v.begin()) cout<<0<<endl;
+        else cout<<it_r - it_l<<" ";
     }
     return 0;
 }

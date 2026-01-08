@@ -15,15 +15,20 @@ int main()
     {
         int n;
         cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
+        map<int,int> mp,mp2;
         for(int i=0;i<n;i++)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            int x;
+            cin>>x;
+            mp[x]++;
+            mp2[mp[x]]++;
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        int most=0;
+        for(auto a:mp2)
+        {
+            most=max(most,a.first*a.second);
+        }
+        cout<<most<<endl;
     }
     return 0;
 }

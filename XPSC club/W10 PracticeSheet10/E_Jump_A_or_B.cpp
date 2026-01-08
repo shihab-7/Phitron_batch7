@@ -13,17 +13,12 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
-        {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
-        }
-        cout<<max(cnt0,cnt_r)<<endl;
+        ll n,m,a,b;
+        cin>>n>>m>>a>>b;
+        if(((n*b)-m)<0) cout<<"No"<<endl;
+        else if(((n*b)-m)%(b-a)!=0) cout<<"No"<<endl;
+        else if(((n*b)-m)/(b-a)>n) cout<<"No"<<endl;
+        else cout<<"Yes"<<endl;
     }
     return 0;
 }

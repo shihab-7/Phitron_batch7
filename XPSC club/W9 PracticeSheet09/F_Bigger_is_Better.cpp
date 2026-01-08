@@ -15,15 +15,23 @@ int main()
     {
         int n;
         cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
+        string s;
+        cin>>s;
+        bool f_z=true;
+        for(char c:s)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            if(c!='z')
+            {
+                f_z=false;
+                break;
+            }
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        if(f_z) cout<<-1<<endl;
+        else
+        {
+            for(int i=0;i<n;i++) cout<<'z';
+            cout<<endl;
+        }
     }
     return 0;
 }

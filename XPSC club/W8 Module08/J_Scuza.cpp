@@ -13,16 +13,26 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        int res=0;
+        int n,q;
+        cin>>n>>q;
+        vector<ll>v(n+1),prf(n+1);
+        v[0]=0;
+        prf[0]=0;
         for(int i=1;i<=n;i++)
         {
-            int x;
-            cin>>x;
-            res^=(x+x);
+            ll a;
+            cin>>a;
+            v[i]=max(v[i-1],a);
+            prf[i]=prf[i-1]+a;
         }
-        cout<<res<<endl;
+        while(q--)
+        {
+            ll op;
+            cin>>op;
+            int idx=upper_bound(v.begin(),v.end(),op)-v.begin()-1;
+            cout<<prf[idx]<<" ";
+        }
+        cout<<endl;
     }
     return 0;
 }

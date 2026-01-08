@@ -11,19 +11,27 @@ using namespace std;
 int main()
 {
     shihab
-    test
+    int n,m;
+    cin>>n>>m;
+    multiset<int>ms;
+    for(int i=0;i<n;i++)
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
+        int val;
+        cin>>val;
+        ms.insert(val);
+    }
+    for(int i=0;i<m;i++)
+    {
+        int val;
+        cin>>val;
+        auto it=ms.upper_bound(val);
+        if(it==ms.begin()) cout<<-1<<endl;
+        else
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            it--;
+            cout<<*it<<endl;
+            ms.erase(it);
         }
-        cout<<max(cnt0,cnt_r)<<endl;
     }
     return 0;
 }

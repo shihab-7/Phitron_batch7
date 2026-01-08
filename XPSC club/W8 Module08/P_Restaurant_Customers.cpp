@@ -11,19 +11,22 @@ using namespace std;
 int main()
 {
     shihab
-    test
+    int n;
+    cin>>n;
+    map<int,int>mp;
+    for(int i=1;i<=n;i++)
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
-        {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
-        }
-        cout<<max(cnt0,cnt_r)<<endl;
+        int a,b;
+        cin>>a>>b;
+        mp[a]++;
+        mp[b+1]--;
     }
+    int cnt=0,ans=0;
+    for(auto [f,s]:mp)
+    {
+        cnt+=s;
+        ans=max(ans,cnt);
+    }
+    cout<<ans<<endl;
     return 0;
 }

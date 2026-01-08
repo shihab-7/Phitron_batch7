@@ -13,17 +13,22 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
+        int n,b;
+        cin>>n>>b;
+        vector<int>p(n),w(n),h(n);
+        for(int i=0;i<n;i++) cin>>w[i]>>h[i]>>p[i];
+        int area=0;
+        bool f=false;
         for(int i=0;i<n;i++)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            if(p[i]<=b)
+            {
+                area=max(area,w[i]*h[i]);
+                f=true;
+            }
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        if(f) cout<<area<<endl;
+        else cout<<"no tablet"<<endl;
     }
     return 0;
 }

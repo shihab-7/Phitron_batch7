@@ -13,17 +13,19 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
+        int n,k;
+        cin>>n>>k;
+        vector<int>a(n);
+        for(int i=0;i<n;i++) cin>>a[i];
+        while(k--)
         {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
+            int sm=a.front()+a.back();
+            a.erase(a.begin());
+            a.pop_back();
+            a.push_back(sm);
         }
-        cout<<max(cnt0,cnt_r)<<endl;
+        for(auto x:a) cout<<x<<" ";
+        cout<<endl;
     }
     return 0;
 }

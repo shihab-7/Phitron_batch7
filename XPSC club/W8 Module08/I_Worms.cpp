@@ -11,19 +11,19 @@ using namespace std;
 int main()
 {
     shihab
-    test
+    int n;
+    cin>>n;
+    vector<int>v(n);
+    for(int i=0;i<n;i++) cin>>v[i];
+    for(int i=1;i<n;i++) v[i]+=v[i-1];
+    int m;
+    cin>>m;
+    while(m--)
     {
-        int n;
-        cin>>n;
-        vector<int>v(n);
-        int cnt0=0,cnt_r=0;
-        for(int i=0;i<n;i++)
-        {
-            cin>>v[i];
-            if(v[i]==0) cnt0++;
-            else cnt_r++;
-        }
-        cout<<max(cnt0,cnt_r)<<endl;
+        int x;
+        cin>>x;
+        int indx=lower_bound(v.begin(),v.end(),x)-v.begin();
+        cout<<indx+1<<endl;
     }
     return 0;
 }
