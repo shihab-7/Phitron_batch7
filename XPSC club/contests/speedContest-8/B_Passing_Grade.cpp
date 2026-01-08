@@ -15,14 +15,14 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        vector<int>v(n);
+        for(int i=0;i<n;i++) cin>>v[i];
+        int fail=0;
+        for(int i=1;i<n;i++)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            if(v[0]>v[i]) fail++;
         }
-        cout<<res<<endl;
+        cout<<v.size()-fail<<endl;
     }
     return 0;
 }

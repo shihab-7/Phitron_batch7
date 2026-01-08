@@ -13,16 +13,9 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
-        {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
-        }
-        cout<<res<<endl;
+        int x,y;
+        cin>>x>>y;
+        cout<<(x+y)/2<<" "<<((x+y)/2)-x<<endl;
     }
     return 0;
 }

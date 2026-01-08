@@ -13,16 +13,11 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
-        {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
-        }
-        cout<<res<<endl;
+        int a,b;
+        cin>>a>>b;
+        if( a*225<b*100) cout<<"Small"<<endl;
+        else if(a*225>b*100) cout<<"Large"<<endl;
+        else cout<<"Equal"<<endl;
     }
     return 0;
 }

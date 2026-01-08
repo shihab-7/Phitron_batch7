@@ -11,18 +11,11 @@ using namespace std;
 int main()
 {
     shihab
-    test
-    {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
-        {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
-        }
-        cout<<res<<endl;
-    }
+    int x;
+    cin>>x;
+    if(x==1) cout<<8000<<endl;
+    if(x==2) cout<<4000<<endl;
+    if(x==3) cout<<2000<<endl;
+    if(x==4) cout<<1000<<endl;
     return 0;
 }

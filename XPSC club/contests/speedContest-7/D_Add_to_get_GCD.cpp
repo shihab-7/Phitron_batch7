@@ -13,16 +13,19 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        ll x,y;
+        cin>>x>>y;
+        if(__gcd(x,y)>1) cout<<0<<endl;
+        else
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            int cnt=0;
+            while(1)
+            {
+                cnt++;
+                if(__gcd(x++,y)>1 || __gcd(x,y++)>1) break;
+            }
+            cout<<cnt<<endl;
         }
-        cout<<res<<endl;
     }
     return 0;
 }

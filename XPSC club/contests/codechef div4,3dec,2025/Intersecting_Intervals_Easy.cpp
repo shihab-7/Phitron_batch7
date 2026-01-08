@@ -11,18 +11,6 @@ using namespace std;
 int main()
 {
     shihab
-    test
-    {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
-        {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
-        }
-        cout<<res<<endl;
-    }
+    
     return 0;
 }

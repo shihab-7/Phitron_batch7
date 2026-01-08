@@ -15,14 +15,15 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        if(n<=4) cout<<max(200,100*n)<<endl;
+        else
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            int op_cst=0;
+            if(n%4==1) op_cst=((n/4)-1)*400+500;
+            else if(n%4==2) op_cst=(n/4)*400+200;
+            else op_cst=(n/4)*400+300;
+            cout<<op_cst<<endl;
         }
-        cout<<res<<endl;
     }
     return 0;
 }

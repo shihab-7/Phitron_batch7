@@ -13,16 +13,13 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        ll n,x;
+        cin>>n>>x;
+        for(ll i=n;i>=1;i--)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            cout<<i<<" ";
         }
-        cout<<res<<endl;
+        cout<<endl;
     }
     return 0;
 }

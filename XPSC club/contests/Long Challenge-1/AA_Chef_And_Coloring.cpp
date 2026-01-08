@@ -15,14 +15,13 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
-        {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
-        }
-        cout<<res<<endl;
+        string s;
+        cin>>s;
+        map<char, int> mp;
+        for(auto c:s) mp[c]++;
+        int minGB=min(n-mp['G'], n-mp['B']);
+        int minClr=min(n-mp['R'],minGB);
+        cout<<minClr<<endl;
     }
     return 0;
 }

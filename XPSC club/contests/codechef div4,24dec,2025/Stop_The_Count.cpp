@@ -15,14 +15,16 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        string s;
+        cin>>s;
+        int cf=0,a_cf=0, s_cnt=0;
+        for(auto c:s)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            if(c=='1') cf++;
+            else a_cf++;
+            if(cf>a_cf) s_cnt++;
         }
-        cout<<res<<endl;
+        cout<<s_cnt<<endl;
     }
     return 0;
 }

@@ -15,12 +15,12 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        vector<int>v(n);
+        for(int i=0;i<n;i++) cin>>v[i];
+        int res=INT_MAX;
+        for(int i=0;i<n-1;i++)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            res=min(res,v[i]+v[i+1]);
         }
         cout<<res<<endl;
     }

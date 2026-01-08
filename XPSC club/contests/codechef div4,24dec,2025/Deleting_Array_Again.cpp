@@ -13,16 +13,21 @@ int main()
     shihab
     test
     {
-        int n;
+        ll n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        vector<ll>a(n),c(n);
+        for(int i=0;i<n;i++) cin>>a[i];
+        for(int i=0;i<n;i++) cin>>c[i];
+        
+        ll ans=0,mn_c=LLONG_MAX;
+        for(int i=0;i<n;i++)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            mn_c=min(mn_c,c[i]);
+            // cout<<mn_c<<" "<<a[i]<<endl;
+            ans+=(a[i]*mn_c);
         }
-        cout<<res<<endl;
+        // cout<<endl;
+        cout<<ans<<endl;
     }
     return 0;
 }

@@ -15,14 +15,20 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        vector<int>v(n);
+        for(int i=0;i<n;i++) cin>>v[i];
+        ll sm=0;
+        for(int i=0;i<n-1;i++) sm+=abs(v[i]-v[i+1]);
+        ll ans=0;
+        for(int i=0;i<n;i++)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            ll cur=0;
+            if(i>0) cur+=abs(v[i]-v[i-1]);
+            if(i<n-1) cur+=abs(v[i]-v[i+1]);
+            if(i>0 && i<n-1) cur-=abs(v[i-1]-v[i+1]);
+            ans=max(ans,cur);
         }
-        cout<<res<<endl;
+        cout<<sm-ans<<endl;
     }
     return 0;
 }

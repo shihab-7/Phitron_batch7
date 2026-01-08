@@ -13,16 +13,11 @@ int main()
     shihab
     test
     {
-        int n;
-        cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
-        {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
-        }
-        cout<<res<<endl;
+        ll n,m;
+        cin>>n>>m;
+        ll trn=3*n-m;
+        if(m>=n&&m<=3*n &&(trn%2==0))cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
     }
     return 0;
 }

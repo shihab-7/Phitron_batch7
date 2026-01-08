@@ -15,14 +15,24 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        string s;
+        cin>>s;
+        map<char,int>mp;
+        for(int i=0;i<n;i++)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            mp[s[i]]++;
         }
-        cout<<res<<endl;
+        bool flag=false;
+        for(auto it:mp)
+        {
+            if(it.second>=2)
+            {
+                flag=true;
+                break;
+            }
+        }
+        if(flag) cout<<"Yes"<<endl;
+        else cout<<"No"<<endl;
     }
     return 0;
 }

@@ -15,14 +15,16 @@ int main()
     {
         int n;
         cin>>n;
-        int res=0, fixed=2048;
-        while(n>0)
+        vector<int>a(n);
+        int sum=0;
+        for(int i=0;i<n;i++)
         {
-            res+=(n/fixed);
-            n%=fixed;
-            fixed>>=1;
+            cin>>a[i];
+            sum+=a[i];
         }
-        cout<<res<<endl;
+        if(sum>=0) cout<<0<<endl;
+        else cout<<(abs(sum)+n-1)/n<<endl;
+        
     }
     return 0;
 }
