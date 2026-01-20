@@ -11,6 +11,17 @@ using namespace std;
 int main()
 {
     shihab
-    
+    test
+    {
+        int n;
+        cin>>n;
+        int tmp=1,cnt=0;
+        while(tmp<=n)
+        {
+            tmp<<=1;
+            cnt++;
+        }
+        cout<<n-cnt<<endl;
+    }
     return 0;
 }
