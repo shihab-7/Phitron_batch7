@@ -15,33 +15,14 @@ int main()
     {
         int n;
         cin>>n;
-        vector<int>a(n);
-        int mn=INT_MAX, mx=INT_MIN;
-        for(int i=0;i<n;i++)
-        {
-            cin>>a[i];
-            mn=min(mn,a[i]);
-            mx=max(mx,a[i]);
-        }
-        // cout<<mn<<" "<<mx<<endl;
-        int cnt=0,cnt2=0;
-        for(int i=mn;i<=mx;i++)
-        {
-            if(i%2==1)
-            {
-                cnt++;
-                for(int j=0;j<n;j++)
-                {
-                    if(a[j]==i)cnt--;
-                }
-            }
-        }
-        for(int i=0;i<n;i++)
-        {
-            if(a[i]%2==0)cnt2++;
-        }
-        if(cnt2==0) cout<<cnt<<endl;
-        else cout<<cnt*cnt2<<endl;
+        vector<ll>v(n);
+        for(int i=0;i<n;i++) cin>>v[i];
+        ll g=v[1]-v[0];
+        for(int i=1;i<n;i++) g=__gcd(g,(v[i]-v[i-1]));
+        ll ans=0;
+        for(int i=1;i<n;i++) ans+=(v[i]-v[i-1])/g-1;
+        cout<<ans<<endl;
+
     }
     return 0;
 }
