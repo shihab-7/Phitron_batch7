@@ -1,0 +1,16 @@
+oop = object oriented programming
+
+inheritance ==> single, multiple
+polymorphism ==> method overriding, method overloading
+abstraction
+encapsulation ==> getter, setter 
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1rBdCgSxYSXAxpmH054XFxplOOqs_p8vMUb595RgRf9k/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1yKGjE9IwtqzQHbWSZIu0neKKczJCRG0B0qeI0304Ugg/edit?usp=sharing
