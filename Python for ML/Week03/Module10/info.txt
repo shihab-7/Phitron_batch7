@@ -1,0 +1,11 @@
+numpy ===> numerical python
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1D7ivdTJ6s7NjTZi-TP4P8pvSo-MpOOxbjfqTUBIdT-o/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/17mv1g8UmPDyCMtSERnE0G4WCV82xeeKc7DvKRId9jXU/edit?usp=sharing
