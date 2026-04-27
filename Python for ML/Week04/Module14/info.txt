@@ -1,0 +1,15 @@
+আজকের মডিউলে ব্যবহার করা ফাইল নিচের Drive link এ পেয়ে যাবেঃ
+
+https://drive.google.com/file/d/11SPaQQXGYyisczneyedbki5BknHLj50c/view?usp=sharing
+
+
+
+আজকের মডিউলের ২টি প্রব্লেম সমাধান করে দেখানো হয়েছে , সেই প্রব্লেমগুলো লিংক নিচের ডকের মধ্যে দেয়া হয়েছেঃ
+
+https://docs.google.com/document/d/1OqJZ5Ziz4Cq1Wkvpv9pgZrO3mh7fGkO7uD6U92Oyqls/edit?usp=sharing
+
+
+
+মডিউলের কোডগুলো নিচের দেয়া হলঃ
+
+https://github.com/phitronio/Python-for-ML/blob/main/Module_14.ipynb
