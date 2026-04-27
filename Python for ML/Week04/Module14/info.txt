@@ -13,3 +13,13 @@ https://docs.google.com/document/d/1OqJZ5Ziz4Cq1Wkvpv9pgZrO3mh7fGkO7uD6U92Oyqls/
 মডিউলের কোডগুলো নিচের দেয়া হলঃ
 
 https://github.com/phitronio/Python-for-ML/blob/main/Module_14.ipynb
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1tqxQNoUXN_vIBFTSrZiIlC882IlTjtKDtgUB3q9HFQU/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1ce7gEqSlvFQLONaC031zNEYhgUyHXryeIfhh2l54yCk/edit?usp=sharing
