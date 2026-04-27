@@ -1,0 +1,20 @@
+আজকের মডিউলে ব্যবহার করা ফাইল নিচের Drive link এ পেয়ে যাবেঃ
+
+https://drive.google.com/drive/folders/1MFh3QWfy3aRbzKPG_D_1QQSiIMurFa8w?usp=sharing
+
+
+
+মডিউলের কোডগুলো নিচের দেয়া হলঃ
+
+https://github.com/phitronio/Python-for-ML/blob/main/Module_15.ipynb
+
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1l28eQBGolT0aTdqQqfnFz9h9cC4aHjeqRgJfyNjwXXY/edit?usp=sharing
+
+
+
+Extra Practice Problem (Optional):
+
+https://docs.google.com/document/d/1pRRbQVcys3mYBmPK3VGAFz54ztWEdeHMR2uFl-9Ugag/edit?usp=sharing
