@@ -1,0 +1,35 @@
+What is a bias in a neural network?
+===>An extra number added to the sum that allows the model to make decisions even when all inputs are zero.
+
+Why do we add bias to a perceptron?
+===>To give the model flexibility.
+It allows the decision boundary to shift around, rather than being stuck passing through the center (origin) of the graph.
+
+What are weights in a perceptron?
+===>Numbers that represent the importance of each input.
+They determine how much influence a specific piece of data has on the final result.
+
+How do weights affect the output of a perceptron?
+===>They scale the input. Increasing a weight makes its corresponding input "louder" or more impactful; decreasing it makes it "quieter."
+
+A perceptron has inputs x1=2, x2=3, weights w1=0.5, w2=1, and bias b=1.
+ Calculate the weighted sum (before activation).
+===> weighted sum = (x1 * w1) + (x2 * w2) + b = (2*0.5)+(3*1)+1 = 5
+
+What is the step function and how does it work? 
+===>A simple on/off switch. 
+If the sum is positive (or meets a threshold), it outputs 1; otherwise outputs 0.
+
+
+Why do we need an activation function in a perceptron?
+===>To introduce non-linearity. 
+Without it, the neural network is just a basic calculator that can only solve simple, straight-line problems.
+
+
+Name three common activation functions 
+===>
+ReLU: (Zero for negative numbers, stays the same for positive).
+
+Sigmoid: (Squeezes everything between 0 and 1).
+
+Tanh: (Squeezes everything between -1 and 1).
