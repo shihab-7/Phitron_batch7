@@ -1,0 +1,14 @@
+আজকের মডিউলের ব্যবহৃত রিসোসগুলো নিচের দেয়া হলঃ
+
+https://drive.google.com/drive/folders/1OGvoT4Qb0Ev-KEpiA1tdiGIabqPpwcRM?usp=sharing
+
+to visualize equations in 2D graph :
+https://www.desmos.com/calculator
+
+to simulate perceptron :
+https://playground.tensorflow.org/#activation=linear&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.0001&regularizationRate=0&noise=0&networkShape=1&seed=0.40647&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
+Practice Problem link:
+
+https://docs.google.com/document/d/1D9TxOPMlbACWQt4geMQsdqoBDqjg7WNnZC-QmivmMJo/edit?usp=sharing
+
