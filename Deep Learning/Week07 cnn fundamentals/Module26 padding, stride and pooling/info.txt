@@ -1,0 +1,37 @@
+আজকের মডিউলের ব্যবহৃত রিসোসগুলো নিচের দেয়া হলঃ
+
+https://drive.google.com/drive/folders/1BIxE1GQIBVFCZfPRqSoKPpIXGkqBelN_?usp=sharing
+
+
+Blog 1 : https://medium.com/@RobuRishabh/convolutional-neural-network-cnn-part-1-d1c027913b2b
+Blog2 : https://medium.com/@Suraj_Yadav/in-depth-knowledge-of-convolutional-neural-networks-b4bfff8145ab
+Geegforgeegs : LeNet-5 : https://www.geeksforgeeks.org/computer-vision/lenet-5-architecture/
+What is Pooling : https://www.geeksforgeeks.org/deep-learning/what-is-pooling-operation/
+
+
+Simulation : https://deeplizard.com/resource/pavq7noze3
+
+Convolution Operation : https://miro.medium.com/v2/resize:fit:786/format:webp/1*D6iRfzDkz-sEzyjYoVZ73w.gif
+
+With padding : 
+https://miro.medium.com/v2/resize:fit:786/format:webp/1*O06nY1U7zoP4vE5AZEnxKA.gif
+
+Stride 2 : animation : https://upload.wikimedia.org/wikipedia/commons/0/04/Convolution_arithmetic_-_Padding_strides.gif
+
+Simulation : https://deeplizard.com/resource/pavq7noze3
+
+https://upload.wikimedia.org/wikipedia/commons/0/04/Convolution_arithmetic_-_Padding_strides.gif
+
+https://miro.medium.com/v2/resize:fit:786/format:webp/1*O06nY1U7zoP4vE5AZEnxKA.gif
+
+
+https://miro.medium.com/v2/resize:fit:786/format:webp/1*D6iRfzDkz-sEzyjYoVZ73w.gif
+
+https://upload.wikimedia.org/wikipedia/commons/0/04/Convolution_arithmetic_-_Padding_strides.gif
+
+https://miro.medium.com/v2/1*fXxDBsJ96FKEtMOa9vNgjA.gif
+
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1GOCJ9vVJR-QJo-TPyg8VYcZxMlB34b4AEJc3W-0Q11Q/edit?usp=sharing
