@@ -1,3 +1,7 @@
 Blog link
 
 https://medium.com/@mikedsouza/understanding-covariate-shift-batch-normalization-0b0a4f7ba8d7
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1PGHhC5IWmP3WyfB7AuSp2E6IzBCLPi0M39tvyNbLc1Y/edit?usp=sharing
