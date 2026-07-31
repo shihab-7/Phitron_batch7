@@ -1,0 +1,7 @@
+আজকের মডিউলের ব্যবহৃত রিসোসগুলো নিচের দেয়া হলঃ
+
+https://github.com/phitronio/Machine-Learning/tree/main/Module%2002
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1EkDBSANBiVN6aY0Afogec5LsoT2h0fviKtmKNxhdXCc/edit?usp=sharing
