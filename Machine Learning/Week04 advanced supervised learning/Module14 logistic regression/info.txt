@@ -1,0 +1,11 @@
+আজকের মডিউলের ব্যবহৃত রিসোসগুলো নিচের দেয়া হলঃ
+
+https://drive.google.com/drive/folders/1GOlFl_x1QEFR37o6fdW3yY8lFrn9e0fL
+
+Quiz Explanation:
+
+https://docs.google.com/document/d/1iaFAmfWN5Tj7ZCGc0xVNxnLusplljs1n/edit
+
+Practice Problem link:
+
+https://colab.research.google.com/drive/1PBR06v2Vqi8ogiaTTgQJLY1k1nbLDLUi
