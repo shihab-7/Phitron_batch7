@@ -1,0 +1,3 @@
+আজকের মডিউলের ব্যবহৃত রিসোসগুলো নিচের দেয়া হলঃ
+
+https://github.com/phitronio/Machine-Learning/tree/main/Module%2028
